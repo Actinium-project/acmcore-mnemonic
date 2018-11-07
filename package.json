@@ -1,8 +1,8 @@
 {
   "name": "acmcore-mnemonic",
-  "version": "1.5.0",
+  "version": "1.0.0",
   "description": "BIP39 Mnemonics implemented for Actinium.",
-  "author": "BitPay <dev@bitpay.com>",
+  "author": "Harris Brakmic",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -11,6 +11,10 @@
     "build": "gulp"
   },
   "contributors": [
+    {
+      "name": "Harris Brakmic",
+      "email": "brakmic@gmail.com"
+    },
     {
       "name": "Yemel Jardi",
       "email": "angel.jardi@gmail.com"
@@ -25,8 +29,8 @@
     "url": "https://github.com/Actinium-project/acmcore-mnemonic.git"
   },
   "keywords": [
-    "bitcoin",
-    "bitcore",
+    "actinium",
+    "acmcore",
     "mnemonic",
     "crypto",
     "cryptography",
@@ -34,11 +38,11 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "assert": "^1.1.2",
     "acmcore-build": "git://github.com/Actinium-project/acmcore-build.git",
+    "assert": "^1.1.2",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
-    "gulp": "^3.8.10",
+    "gulp": "^3.9.1",
     "mocha": "^2.2.5"
   },
   "dependencies": {
