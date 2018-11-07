@@ -1,10 +1,10 @@
 {
   "name": "acmcore-mnemonic",
-  "main": "./bitcore-mnemonic.min.js",
-  "version": "1.1.4",
+  "main": "./acmcore-mnemonic.min.js",
+  "version": "1.0.0",
   "homepage": "https://github.com/Actinium-project/acmcore-mnemonic",
   "authors": [
-    "BitPay"
+    "Harris Brakmic"
   ],
   "description": "BIP39 - Mnemonics implemented for Actinium.",
   "moduleType": [
@@ -12,8 +12,8 @@
   ],
   "keywords": [
     "actinium",
-    "bitcore",
-    "btc",
+    "acmcore",
+    "acm",
     "satoshi",
     "mnemonic"
   ],
